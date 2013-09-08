@@ -1,7 +1,6 @@
 # encoding: US-ASCII
 
 require 'forwardable'
-require 'pry'
 
 class VCF
   VERSION   = '1.0.0'
