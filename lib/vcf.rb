@@ -4,7 +4,7 @@ require 'forwardable'
 
 class VCF
   VERSION   = '1.0.0'
-  VCF_TOKEN = "END:VCARD\r\n"
+  VCF_TOKEN = "END:VCARD\n"
 
   include Enumerable
   extend Forwardable
